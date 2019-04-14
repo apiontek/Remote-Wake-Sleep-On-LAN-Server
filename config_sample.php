@@ -20,17 +20,27 @@
 
 	// This is the number of times that the WOL server will try to ping the target computer to check if it has woken up. Default = 15.
 	$MAX_PINGS = 15;
+
 	// This is the number of seconds to wait between pings commands when waking up or sleeping. Waking from shutdown or sleep will impact this.
 	$SLEEP_TIME = 5;
 
 	// This is the Name of the computers to appear in the drop down
-	$COMPUTER_NAME = array("computer1","computer2");
+	$COMPUTER_NAME = array(
+		"computer1",
+		"computer2"
+	);
 
 	// This is the MAC address of the Network Interface on the computer you are trying to wake.
-	$COMPUTER_MAC = array("00:00:00:00:00:00","00:00:00:00:00:00");
+	$COMPUTER_MAC = array(
+		"00:00:00:00:00:00",
+		"00:00:00:00:00:00"
+	);
 
 	// This is the LOCAL IP address of the computer you are trying to wake.  Use a reserved DHCP through your router's administration interface to ensure it doesn't change.
-	$COMPUTER_LOCAL_IP = array("192.168.0.1","192.168.0.2");
+	$COMPUTER_LOCAL_IP = array(
+		"192.168.0.1",
+		"192.168.0.2"
+	);
 
 	// This is the Port being used by the Windows SleepOnLan Utility to initiate a Sleep State
 	// http://www.ireksoftware.com/SleepOnLan/
