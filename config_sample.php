@@ -1,7 +1,8 @@
 <?php
 	/*
-	Remote Wake/Sleep-On-LAN Server [CONFIGURATION FILE]
-	https://github.com/sciguy14/Remote-Wake-Sleep-On-LAN-Server
+	Remote Wake/Sleep-On-LAN Server
+	https://github.com/Deses/Remote-Wake-Sleep-On-LAN-Server
+	Forked from: https://github.com/sciguy14/Remote-Wake-Sleep-On-LAN-Server
 	Original Author: Jeremy E. Blum (http://www.jeremyblum.com)
 	Security Edits By: Felix Ryan (https://www.felixrr.pro)
 	License: GPL v3 (http://www.gnu.org/licenses/gpl.html)
