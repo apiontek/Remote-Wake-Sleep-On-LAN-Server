@@ -153,7 +153,7 @@
 		curl_setopt($ch, CURLOPT_TIMEOUT, 5);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-		if (curl_exec($ch) === false) {
+		if ((curl_exec($ch) === false) and (strpos(curl_error($ch), "Received HTTP/0.9 when not allowed") === false)) {
 			echo "<p><span style='color:#CC0000;'><b>Command Failed:</b></span> " . curl_error($ch) . "</p>";
 			echo "<p><a href='?computer=" . $selectedComputer . "'>Return to the Wake/Sleep Control Home</a></p>";
 			$show_form = false;
