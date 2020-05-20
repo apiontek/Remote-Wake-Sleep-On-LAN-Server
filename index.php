@@ -171,7 +171,6 @@
 					echo "<p><a href='?computer=" . $selectedComputer . "'>Return to the Wake/Sleep Control Home</a></p>";
 				} else {
 					echo "<span style='color:#CC0000;'><b>Still Awake.</b></span><br />";
-					echo "<p><a href='?computer=" . $selectedComputer . "'>Return to the Wake/Sleep Control Home</a></p>";
 				}
 				sleep($SLEEP_TIME);
 			}
